@@ -16,6 +16,7 @@
 		A2D9AB8F299CD4A500F0FC41 /* UniFIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AB8E299CD4A500F0FC41 /* UniFIIntegrationTests.swift */; };
 		A2D9AB99299CD4A500F0FC41 /* UniFIIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AB98299CD4A500F0FC41 /* UniFIIntegrationUITests.swift */; };
 		A2D9AB9B299CD4A500F0FC41 /* UniFIIntegrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AB9A299CD4A500F0FC41 /* UniFIIntegrationUITestsLaunchTests.swift */; };
+		A2D9ABA8299CF81A00F0FC41 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9ABA7299CF81A00F0FC41 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A2D9AB94299CD4A500F0FC41 /* UniFIIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniFIIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D9AB98299CD4A500F0FC41 /* UniFIIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniFIIntegrationUITests.swift; sourceTree = "<group>"; };
 		A2D9AB9A299CD4A500F0FC41 /* UniFIIntegrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniFIIntegrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2D9ABA7299CF81A00F0FC41 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A2D9AB80299CD4A500F0FC41 /* Assets.xcassets */,
 				A2D9AB82299CD4A500F0FC41 /* LaunchScreen.storyboard */,
 				A2D9AB85299CD4A500F0FC41 /* Info.plist */,
+				A2D9ABA7299CF81A00F0FC41 /* WebViewController.swift */,
 			);
 			path = UniFIIntegration;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				A2D9AB7C299CD4A400F0FC41 /* ViewController.swift in Sources */,
 				A2D9AB78299CD4A400F0FC41 /* AppDelegate.swift in Sources */,
 				A2D9AB7A299CD4A400F0FC41 /* SceneDelegate.swift in Sources */,
+				A2D9ABA8299CF81A00F0FC41 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
