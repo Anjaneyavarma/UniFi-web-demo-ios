@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }()
     
     func makeD2DApiCall(){
-        guard let baseUrl = URL(string: "https://omni-apply.app.qa.pcf.syfbank.com/omniApply/application-link")
+        guard let baseUrl = URL(string: "**")
         else{
             return
         }
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         let body: [String: Any] = [
             "waterfallFinance":"N",
             "applicantInfo":[
-                "emailAddress":"penumatsa.anjaneyavarma@syf.com",
+                "emailAddress":"**",
                 "saleAmount":"850",
                 "initialPurchaseAmount":850
             ],
@@ -40,15 +40,15 @@ class ViewController: UIViewController {
                 "productName":"ZETAIL VISA Rewards Card",
                 "channelId":"BC",
                 "productCodeGroupCode":"A600",
-                "merchantId":"5348120820046126",
-                "storeMid":"5348120820030393",
-                "partnerId":"PI1000011702"
+                "merchantId":"**",
+                "storeMid":"**",
+                "partnerId":"**"
             ],
             "strategyInfo":[
                 "viaCode":"H"
             ],
             "deliveryMethod":"EMAIL_AND_MERCHANT",
-            "d2dUrl":"https://qpdpone.syfpos.com/mppcore/d2d",
+            "d2dUrl":"**",
             "applicationType":"MPP"
         ]
         print("body ==== \(body)")
@@ -83,15 +83,14 @@ class ViewController: UIViewController {
     }
     
     @objc func tapWebView(){
-        guard let url = URL(string: "https://qpdpone.syfpos.com/mppcore/d2d/XNceLw7g")
+        guard let url = URL(string: "**")
         else{
             return
         }
         print("Hello world")
 
-//        let jsonObject = "  {syfPartnerId:\"PI53421676\",tokenId:\"185df7a6fefPI5342167627741\",encryptKey:\"\",modalType:\"\",childMid:\"\",childPcgc:\"\",childTransType:\"\",pcgc:\"\",partnerCode:\"\",clientToken:\"\",postbackid:\"d979e5b7-6382-4e4e-b269-aab027bbed58\",clientTransId:\"\",cardNumber:\"\",custFirstName:\"\",custLastName:\"\",expMonth:\"\",expYear:\"\",custZipCode:\"\",custAddress1:\"\",phoneNumb:\"\",appartment:\"\",emailAddr:\"\",custCity:\"\",upeProgramName:\"\",custState:\"\",transPromo1:\"\",iniPurAmt:\"\",mid:\"\",productCategoryNames:\"\",transAmount1:\"700\",transAmounts:\"\",initialAmount:\"\",envUrl:\"https://dpdpone.syfpos.com/mitservice/\",productAttributes:\"\",processInd:\"3\"};"
 
-        let jsonDictionary: [String: Any] = ["partnerId":"P153421676", "amount":"1300", "pcgc":"GR10"]
+        let jsonDictionary: [String: Any] = ["partnerId":"**", "amount":"1300", "pcgc":"GR10"]
 
         let json = try! JSONSerialization.data(withJSONObject: jsonDictionary, options: [])
 
